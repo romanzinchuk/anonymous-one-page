@@ -1,0 +1,28 @@
+h1 {
+    color: white;
+}
+.wrapper {
+    width: 400px;
+    max-width: 100%;
+    position: relative;
+}
+.wrapper input{
+    background: rgba(128,128,128, 0.3);
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 1rem 2rem;
+    width: 100%;
+}
+.wrapper button {
+    background-color: white;
+    border-radius: 10%;
+    height: 100%;
+    aspect-ratio: 1;
+
+    position: absolute;
+    right: 0px;
+    left: 480px;
+    transform: translateX(-20%);
+    top: 0px;
+
+}
